@@ -14,6 +14,6 @@ In this project our team wanted to create a mock resturant. We created a full st
 - Passport
 - Materialize
 
-### HungARRAY Link
+## HungARRAY Link
 
 https://ucfproject2.herokuapp.com/
