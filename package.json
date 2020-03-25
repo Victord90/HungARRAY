@@ -1,5 +1,5 @@
 {
-  "name": "project2",
+  "name": "hung-array",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CristianF97/Project2.git"
+    "url": "git+https://github.com/Victord90/HungARRAY.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CristianF97/Project2/issues"
+    "url": "https://github.com/Victord90/HungARRAY/issues"
   },
-  "homepage": "https://github.com/CristianF97/Project2#readme",
+  "homepage": "https://github.com/Victord90/HungARRAY#readme",
   "devDependencies": {
     "eslint": "^6.8.0"
   },
