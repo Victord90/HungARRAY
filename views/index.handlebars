@@ -1,231 +1,244 @@
- <ul id="dropdown1" class="dropdown-content">
-    <li><a class="black-text" href="/">Home</a></li>
-    <li><a class="black-text" href="/menu">Menu</a></li>
-    <li><a class="black-text" href="/reservation">Reservation</a></li>
-    <li><a class="black-text modal-trigger" href="#modal1">Take Out</a></li>
-  </ul>
-  <div class="navbar-fixed">
+<ul id="dropdown1" class="dropdown-content">
+  <li><a class="black-text" href="/">Home</a></li>
+  <li><a class="black-text" href="/menu">Menu</a></li>
+  <li><a class="black-text" href="/reservation">Reservation</a></li>
+  <li><a class="black-text modal-trigger" href="#modal1">Take Out</a></li>
+</ul>
+<div class="navbar-fixed">
   <nav class="black" role="navigation">
     <a href="#" data-target="nav-mobile" class="sidenav-trigger white-text"><i class="material-icons">menu</i></a>
     <div class="nav-wrapper container">
       <div id="loggedIn" class="nav-wrapper">
-        
-        <a  href="#modal1" class="brand-logo modal-trigger"><i class="fas fa-user"></i></a>
+
+        <a href="#modal1" class="brand-logo modal-trigger"><i class="fas fa-user"></i></a>
         <a href="/" class="brand-logo center">[HungARRAY]</a>
         <ul class="right hide-on-med-and-down">
-          
+
           <!-- Dropdown Trigger -->
-          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Nav Link<i class="material-icons right">arrow_drop_down</i></a></li>
+          <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Nav Link<i
+                class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
-    </div>      
     </div>
-  </nav>
-  {{#if errorPassword}}
-    <div id="errorPassword">{{errorPassword}}</div>
-  {{/if}}
-  {{#if errorEmail}}
-    <div id="errorEmail">{{errorEmail}}</div>
-  {{/if}}
-  {{#if errorUnknown}}
-    <div id="errorUnknown">{{errorUnknown}}</div>
-  {{/if}}
-  {{#if user}}
-    <div id="errorUnknown">hello {{user}}</div>
-  {{/if}}
+</div>
+</nav>
+{{#if errorPassword}}
+<div id="errorPassword">{{errorPassword}}</div>
+{{/if}}
+{{#if errorEmail}}
+<div id="errorEmail">{{errorEmail}}</div>
+{{/if}}
+{{#if errorUnknown}}
+<div id="errorUnknown">{{errorUnknown}}</div>
+{{/if}}
+{{#if user}}
+<div id="errorUnknown">hello {{user}}</div>
+{{/if}}
 
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a class="black-text" href="/">Home</a></li>
-        <li><a class="black-text" href="/menu">Menu</a></li>
-        <li><a class="black-text" href="/reservation">Reservation</a></li>
-        <li><a class="black-text" href="/order">Take Out</a></li>
-      </ul>
-    
+<ul id="nav-mobile" class="sidenav">
+  <li><a class="black-text" href="/">Home</a></li>
+  <li><a class="black-text" href="/menu">Menu</a></li>
+  <li><a class="black-text" href="/reservation">Reservation</a></li>
+  <li><a class="black-text" href="/#modal1">Take Out</a></li>
+</ul>
 
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center white-text text-lighten-2">HungARRAY</h1>
-        <div class="row center">
-          <h5 class="header col s12 white-text light">American Modern Cuisine</h5>
-        </div>
-        
-        <br><br>
 
+<div id="index-banner" class="parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br><br>
+      <h1 class="header center white-text text-lighten-2">HungARRAY</h1>
+      <div class="row center">
+        <h5 class="header col s12 white-text light">American Modern Cuisine</h5>
       </div>
+
+      <br><br>
+
     </div>
-    <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
   </div>
+  <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
+</div>
 
 
-  <div class="container">
-    <div class="section">
+<div class="container">
+  <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-          <div class="col s12 center">
-              <!-- <h3><i class="mdi-content-send brown-text"></i></h3> -->
-              <h3>Check us out</h3>
-          </div>
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <a href="/menu">
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 center">
+        <!-- <h3><i class="mdi-content-send brown-text"></i></h3> -->
+        <h3>Check us out</h3>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <a href="/menu">
             <!-- <h2 class="center brown-text"><i class=" fas fa-beer"></i></h2> -->
             <h5 class="center black-text">View Menu</h5>
-            </a>
-            <p class="light">Come explore our new twist on american cuisine. Whether you enjoy food from the land or sea, we have something special for you  to try. </p>
-          </div>
+          </a>
+          <p class="light">Come explore our new twist on american cuisine. Whether you enjoy food from the land or sea,
+            we have something special for you to try. </p>
         </div>
+      </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-              <a href="/reservation">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <a href="/reservation">
             <!-- <h2 class="center brown-text"><i class="fas fa-plane"></i></h2> -->
             <h5 class="center black-text">Make Reservation</h5>
-              </a>
-            <p class="light">With much anticipation of us opening up, we highly recommend making a reservation to secure your seat/experience in our lovely resturant. Please book within one day notice.</p>
-          </div>
+          </a>
+          <p class="light">With much anticipation of us opening up, we highly recommend making a reservation to secure
+            your seat/experience in our lovely resturant. Please book within one day notice.</p>
         </div>
+      </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-              <a href="/order">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <a href="/#modal1">
             <!-- <h2 class="center brown-text"><i class="fas fa-spinner"></i></h2> -->
-            <h5 class="center black-text">Take Out</h5>
-              </a>
+            <h5 class="center black-text modal-trigger">Take Out</h5>
+          </a>
 
-            <p class="light">Are you always on the move? If so we also offer efficient takeout ordering right online. Don't suffer from your busy schedule and place a order now to enjoy HungARRAY right at home on your time!</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <!-- <h5 class="header col s12 light">Main information on me</h5> -->
+          <p class="light">Are you always on the move? If so we also offer efficient takeout ordering right online.
+            Don't suffer from your busy schedule and place a order now to enjoy HungARRAY right at home on your time!
+          </p>
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+
   </div>
+</div>
 
-  <div class="container">
-    <div class="section">
 
-      <div class="row">
-        <div class="col s12 center">
-          <h3>Location</h3>
-          <p class="light">We are located right in the heart of UCF! Come before, after, or on your break and enjoy delicious food!</p>
-         <div id="map" class="col s6"></div>
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+        <!-- <h5 class="header col s12 light">Main information on me</h5> -->
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="images/background2.jpg" alt="Unsplashed background img 2"></div>
+</div>
 
-    
+<div class="container">
+  <div class="section">
 
-      
+    <div class="row">
+      <div class="col s12 center">
+        <h3>Location</h3>
+        <p class="light">We are located right in the heart of UCF! Come before, after, or on your break and enjoy
+          delicious food!</p>
+        <div id="map" class="col s6"></div>
+
+
+
+
 
         <div class="col s6">
           <img src="images/map_div_image.jpg" id="outsideImg">
         </div>
 
-        </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
 
         <div class="col s12 center">
-          
-              
-            <h5 class="black-text">Hours of operation</h5>
-              
 
-            <p class="light">We are open daily from 11am - 11pm! Come join us for happy hour 2pm - 5pm!</p>
-          
-        </div>
+
+          <h5 class="black-text">Hours of operation</h5>
+
+
+          <p class="light">We are open daily from 11am - 11pm! Come join us for happy hour 2pm - 5pm!</p>
 
         </div>
-        
-        
-        </div>
-      
 
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        
       </div>
-    </div>
-    <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
 
-  <footer class="page-footer black">
+
+    </div>
+
+
+  </div>
+</div>
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. We decided to make this mock resturant because we realized it would give us a great challenge with multiple databases to work with. We also have a sign in feature to order take out. We hope you enjoy our mock resturant! Our team members git hub page links are availible to the right for any questions.</p>
+
+    </div>
+  </div>
+  <div class="parallax"><img src="images/background3.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+<footer class="page-footer black">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Company Bio</h5>
+        <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full
+          time job. We decided to make this mock resturant because we realized it would give us a great challenge with
+          multiple databases to work with. We also have a sign in feature to order take out. We hope you enjoy our mock
+          resturant! Our team members git hub page links are availible to the right for any questions.</p>
 
 
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Github Link</h5>
-          <ul>
-            <li><a class="white-text" href="https://github.com/cdvincent" target="_blank">Chris Vincent</a></li>
-            <li><a class="white-text" href="https://github.com/mguaraz120" target="_blank">Mario Vizcaino</a></li>
-            <li><a class="white-text" href="https://github.com/Victord90" target="_blank">Victor Dominguez</a></li>
-            <li><a class="white-text" href="https://github.com/CristianF97" target="_blank">Cristian Funez</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="http://linkedin.com/in/christopher-vincent-a7b594105" target="_blank">LinkedIn</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/mario-vizcaino-187ab9104/" target="_blank">LinkedIn</a></li>
-            <li><a class="white-text" href="https://linkedin.com/in/victor-dominguez-b444b7191" target="_blank">LinkedIn</a></li>
-            <li><a class="white-text" href="https://www.linkedin.com/in/cristian-funez-collazo-908344191" target="_blank">LinkedIn</a></li>
-          </ul>
-        </div>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Github Link</h5>
+        <ul>
+          <li><a class="white-text" href="https://github.com/cdvincent" target="_blank">Chris Vincent</a></li>
+          <li><a class="white-text" href="https://github.com/mguaraz120" target="_blank">Mario Vizcaino</a></li>
+          <li><a class="white-text" href="https://github.com/Victord90" target="_blank">Victor Dominguez</a></li>
+          <li><a class="white-text" href="https://github.com/CristianF97" target="_blank">Cristian Funez</a></li>
+        </ul>
+      </div>
+      <div class="col l3 s12">
+        <h5 class="white-text">Connect</h5>
+        <ul>
+          <li><a class="white-text" href="http://linkedin.com/in/christopher-vincent-a7b594105"
+              target="_blank">LinkedIn</a></li>
+          <li><a class="white-text" href="https://www.linkedin.com/in/mario-vizcaino-187ab9104/"
+              target="_blank">LinkedIn</a></li>
+          <li><a class="white-text" href="https://linkedin.com/in/victor-dominguez-b444b7191"
+              target="_blank">LinkedIn</a></li>
+          <li><a class="white-text" href="https://www.linkedin.com/in/cristian-funez-collazo-908344191"
+              target="_blank">LinkedIn</a></li>
+        </ul>
       </div>
     </div>
-    
-    <div class="modal-content">
-        <div id="modal1" class="modal">
-            <div class="container">
-            <h4 class="black-text">Sign In</h4>
-                <form id="signin" name="signin" method="post" action="/signin">
-                <div class="col 6">
-                    <div class="input-field col s12">
-                        <label for="email">Email Address</label>
-                        <input class="text" name="email" type="text" />
-                            <div class="input-field col s12">
-                                <label for="password">Password</label>
-                                <input name="password" type="password" />
-                            </div>
-                    <a href="signup">Register</a>
-                    </div>
-                        <input id="signin" class="btn waves-effect waves-light" type="submit" value="Sign In"/>
-                </form>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-        </div> 
-  </footer>
+  </div>
 
-<script>        
-  $(document).ready(function() {
+  <div class="modal-content">
+    <div id="modal1" class="modal">
+      <div class="container">
+        <h4 class="black-text">Sign In</h4>
+        <form id="signin" name="signin" method="post" action="/signin">
+          <div class="col 6">
+            <div class="input-field col s12">
+              <label for="email">Email Address</label>
+              <input class="text" name="email" type="text" />
+              <div class="input-field col s12">
+                <label for="password">Password</label>
+                <input name="password" type="password" />
+              </div>
+              <a href="signup">Register</a>
+            </div>
+            <input id="signin" class="btn waves-effect waves-light" type="submit" value="Sign In" />
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  $(document).ready(function () {
     $('.modal').modal();
-  if (loggedIn === true) {
-    $("#loggedIn").text("<a href='./logout'>Log Out</a>");
-  }
+    if (loggedIn === true) {
+      $("#loggedIn").text("<a href='./logout'>Log Out</a>");
+    }
   });
 </script>
